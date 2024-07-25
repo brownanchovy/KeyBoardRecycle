@@ -1,0 +1,60 @@
+<ShortcutSettingPopup>:
+    title: 'Set Keyboard Shortcut'
+    size_hint: 0.8, 0.8
+    auto_dismiss: False
+
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        TextInput:
+            id: shortcut_input
+            hint_text: 'Enter Keyboard Shortcut'
+            multiline: False
+            on_focus:
+                if self.focus:
+                    keyboardInput.on_key_down()
+
+        TextInput:
+            id: event_input
+            hint_text: 'Enter Event Description'
+            multiline: False
+
+
+        Button:
+            id: file_chooser
+            text: 'Open File Chooser'
+            size_hint_y: None
+            height: '40dp'
+            on_release: root.show_file_browser()
+
+
+        BoxLayout:
+            size_hint_y: None
+            height: '40dp'
+            spacing: 10
+
+            Button:
+                id: save_button
+                text: 'Save'
+
+            Button:
+                id: close_button
+                text: 'Cancel'
+
+<MainScreen>:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    BoxLayout:
+        id: shortcuts_layout
+        orientation: 'vertical'
+        spacing: 10
+
+    Button:
+        text: 'Add New Shortcut'
+        size_hint_y: None
+        height: '40dp'
+        on_release: root.open_popup('ShortcutSettingPopup')

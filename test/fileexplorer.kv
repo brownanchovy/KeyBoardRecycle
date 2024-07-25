@@ -1,0 +1,30 @@
+# fileexplorer.kv
+
+<FileExplorer>:
+    orientation: 'vertical'
+
+    file_path_label: file_path_label
+    file_input: file_input
+
+    Label:
+        id: file_path_label
+        text: 'Current Path: None'
+
+    BoxLayout:
+        size_hint_y: None
+        height: '40dp'
+        Button:
+            text: 'Navigate Up'
+            on_release: root.navigate_up()
+        Button:
+            text: 'Navigate Down'
+            on_release: root.navigate_down()
+
+    Button:
+        text: 'Select File'
+        on_release: root.show_file_browser()
+
+    TextInput:
+        id: file_input
+        hint_text: 'Selected File Path'
+        multiline: False

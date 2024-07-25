@@ -1,0 +1,35 @@
+Ctrl + C Copy selected text or item
+Ctrl + X Cut selected text or item
+Ctrl + V Paste copied or cut text or item
+Ctrl + Z Undo an action
+Ctrl + Y Redo an action
+Ctrl + A Select all items in a document or window
+Ctrl + F Find a file or document
+Ctrl + P Print a document
+Ctrl + S Save a document
+Ctrl + N Create a new document
+Alt + Tab Switch between open apps
+Alt + F4 Close the active item, or exit the active app
+Alt + Enter Display properties for the selected item
+Alt + Esc Cycle through items in the order in which they were opened
+Alt + Space Open the shortcut menu for the active window
+Win + D Show or hide the desktop
+Win + E Open File Explorer
+Win + F Search for files and folders
+Win + L Lock your PC or switch accounts
+Win + M Minimize all windows
+Win + Shift + M Restore minimized windows on the desktop
+Win + R Open the Run dialog box
+Win + U Open Ease of Access Center
+Win + Pause Display the System Properties dialog box
+Win + Tab Cycle through open apps using Task view
+Win + Ctrl + D Add a virtual desktop
+Win + Ctrl + F4 Close the current virtual desktop
+Win + Ctrl + Left/Right Arrow Switch between virtual desktops you’ve created
+Win + Shift + Left/Right Arrow Move an app or window from one monitor to another
+Win + Ctrl + F Search for PCs (if you’re on a network)
+Win + Plus (+) Open Magnifier
+Win + Minus (-) Zoom out in Magnifier
+Win + ESC Exit Magnifier
+Win + Print Screen Take a screenshot and save it to a file
+Win + Alt + Print Screen Take a screenshot of a game window
