@@ -1,0 +1,5 @@
+keyboard
+pyinstaller
+kivy
+kivy_garden.filebrowser
+pynput
