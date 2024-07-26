@@ -1,5 +1,6 @@
 import keyboard
 import time
+from pynput.keyboard import Listener, Key
 def no_keys_pressed():
     # 모든 알파벳, 숫자, 수정 키에 대해 검사
     keys_to_check = list(keyboard.all_modifiers) + list(map(str, range(10))) + list('abcdefghijklmnopqrstuvwxyz')
@@ -9,7 +10,6 @@ def no_keys_pressed():
             return False
     # 아무 키도 눌려있지 않다면 True 반환
     return True
-
 def keyInput():
     key_input = set()
     def on_key_event(event):
